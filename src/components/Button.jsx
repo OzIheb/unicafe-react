@@ -1,3 +1,3 @@
 export default function Button(props) {
-  <button onClick={props.handleClick}>{props.text}</button>;
+  return <button onClick={props.handleClick}>{props.text}</button>;
 }
